@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="SMS MANAGER"
+        android:background="@drawable/background"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL MANAGER"
+        android:background="@drawable/background"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEAT SELLER"
+        android:background="@drawable/background"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:background="@drawable/background"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/pp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PhonePay"
+            android:background="@drawable/background"/>
+
+        <Button
+            android:id="@+id/pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:text="PayTM" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
